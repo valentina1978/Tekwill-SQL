@@ -112,13 +112,11 @@ and salary > 10000;
  order by employee_id
  Fetch first 10 rows only;
  
-  Select *
+Select *
  from employees 
  order by employee_id
 offset 1 row Fetch first 18 rows with ties;
 
-Select *
-From employees
-Where employee_id = &employee;
+
 
 
